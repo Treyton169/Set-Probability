@@ -9,7 +9,7 @@ def possibility(set, target):
     return f" Possibility is {(num/len(set)) * 100}%"
 
 # Creating a random list and a random target number, you can remove this part if you want to input your own list and target.
-lst = [] # If you want to add your own list add the values and remove lines 14-15.
+lst = [] # If you want to add your own list add the values and remove lines 14-15. If not, don't.
 i = 0 
 for i in range(random.randint(10, 30)):
     lst.append(random.randint(1, 10))
